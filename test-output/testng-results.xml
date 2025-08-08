@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-08T09:41:37 PDT" name="Suite" finished-at="2025-08-08T09:42:05 PDT" duration-ms="27968">
+    <groups>
+      <group name="Master">
+        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@7803bfd]" name="login_process" class="testCases.TC01_LoginTest"/>
+        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@6f3c660a]" name="InstituteType_process" class="testCases.TC03_InstType"/>
+        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@61a88b8c]" name="login_process" class="testCases.TC01_LoginTest"/>
+        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@22295ec4]" name="InstituteType_process" class="testCases.TC03_InstType"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@7803bfd]" name="login_process" class="testCases.TC01_LoginTest"/>
+        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@61a88b8c]" name="login_process" class="testCases.TC01_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@6f3c660a]" name="InstituteType_process" class="testCases.TC03_InstType"/>
+        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@22295ec4]" name="InstituteType_process" class="testCases.TC03_InstType"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-08-08T09:41:37 PDT" name="Linux-Chrome" finished-at="2025-08-08T09:41:51 PDT" duration-ms="14207">
+      <class name="testCases.TC03_InstType">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_InstType@6f3c660a]" started-at="2025-08-08T09:41:45 PDT" name="setup" finished-at="2025-08-08T09:41:49 PDT" duration-ms="4456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC03_InstType@6f3c660a]" started-at="2025-08-08T09:41:49 PDT" name="InstituteType_process" finished-at="2025-08-08T09:41:51 PDT" duration-ms="1520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstituteType_process -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_InstType@6f3c660a]" started-at="2025-08-08T09:41:51 PDT" name="tearDown" finished-at="2025-08-08T09:41:51 PDT" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC03_InstType -->
+      <class name="testCases.TC01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LoginTest@7803bfd]" started-at="2025-08-08T09:41:37 PDT" name="setup" finished-at="2025-08-08T09:41:43 PDT" duration-ms="6239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_process()[pri:0, instance:testCases.TC01_LoginTest@7803bfd]" started-at="2025-08-08T09:41:43 PDT" name="login_process" finished-at="2025-08-08T09:41:45 PDT" duration-ms="1549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_process -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_LoginTest@7803bfd]" started-at="2025-08-08T09:41:45 PDT" name="tearDown" finished-at="2025-08-08T09:41:45 PDT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_LoginTest -->
+    </test> <!-- Linux-Chrome -->
+    <test started-at="2025-08-08T09:41:53 PDT" name="Linux-Firefox" finished-at="2025-08-08T09:42:05 PDT" duration-ms="11599">
+      <class name="testCases.TC03_InstType">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_InstType@22295ec4]" started-at="2025-08-08T09:41:59 PDT" name="setup" finished-at="2025-08-08T09:42:02 PDT" duration-ms="2898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC03_InstType@22295ec4]" started-at="2025-08-08T09:42:02 PDT" name="InstituteType_process" finished-at="2025-08-08T09:42:04 PDT" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstituteType_process -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_InstType@22295ec4]" started-at="2025-08-08T09:42:04 PDT" name="tearDown" finished-at="2025-08-08T09:42:05 PDT" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC03_InstType -->
+      <class name="testCases.TC01_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LoginTest@61a88b8c]" started-at="2025-08-08T09:41:53 PDT" name="setup" finished-at="2025-08-08T09:41:57 PDT" duration-ms="4388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login_process()[pri:0, instance:testCases.TC01_LoginTest@61a88b8c]" started-at="2025-08-08T09:41:57 PDT" name="login_process" finished-at="2025-08-08T09:41:59 PDT" duration-ms="1277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_process -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_LoginTest@61a88b8c]" started-at="2025-08-08T09:41:59 PDT" name="tearDown" finished-at="2025-08-08T09:41:59 PDT" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC01_LoginTest -->
+    </test> <!-- Linux-Firefox -->
+  </suite> <!-- Suite -->
+</testng-results>

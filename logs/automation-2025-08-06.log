@@ -1,0 +1,66 @@
+13:46:01.639 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+13:46:01.649 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+13:46:01.654 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+13:46:01.990 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+13:46:02.390 [main] INFO  testCases.TC03_InstType - Enter Password
+13:46:03.696 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+13:46:04.106 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+13:47:36.727 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\grouping.xml
+
+13:47:43.042 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+13:47:43.059 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+13:47:43.301 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+13:47:43.432 [main] INFO  testCases.TC01_LoginTest - Enter Password
+13:47:43.515 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+13:47:45.019 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+13:48:11.591 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\grouping.xml
+
+13:48:18.267 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+13:48:18.281 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+13:48:18.720 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+13:48:19.048 [main] INFO  testCases.TC01_LoginTest - Enter Password
+13:48:20.616 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+13:48:20.941 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+09:53:09.481 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\master.xml
+
+09:53:21.379 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+09:53:21.442 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+09:53:21.562 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+09:53:21.654 [main] INFO  testCases.TC01_LoginTest - Enter Password
+09:53:21.709 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+09:53:22.845 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+09:53:28.758 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+09:53:28.760 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+09:53:28.787 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+09:53:28.901 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+09:53:28.986 [main] INFO  testCases.TC03_InstType - Enter Password
+09:53:29.548 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+09:53:30.135 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+17:55:17.871 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\grouping.xml
+
+17:55:27.916 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+17:55:28.014 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+17:55:28.232 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+17:55:28.427 [main] INFO  testCases.TC01_LoginTest - Enter Password
+17:55:30.250 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+17:55:30.653 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+17:55:37.176 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+17:55:37.176 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+17:55:37.210 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+17:55:37.439 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+17:55:37.575 [main] INFO  testCases.TC03_InstType - Enter Password
+17:55:38.908 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+17:55:39.252 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+17:57:35.878 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\grouping.xml
+
+17:57:41.227 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+17:57:41.234 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+17:57:41.447 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+17:57:41.575 [main] INFO  testCases.TC01_LoginTest - Enter Password
+17:57:42.552 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+17:57:42.734 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********

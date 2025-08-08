@@ -1,0 +1,57 @@
+10:45:53.633 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+10:45:53.741 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+10:45:53.823 [main] INFO  testCases.TC03_InstType - Enter Password
+10:45:54.383 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+10:45:54.696 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+10:47:50.460 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+10:47:50.472 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+10:47:50.599 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+10:47:50.711 [main] INFO  testCases.TC01_LoginTest - Enter Password
+10:47:50.762 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+10:47:51.651 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+10:47:56.857 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+10:47:56.857 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+10:47:56.858 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+10:47:57.008 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+10:47:57.098 [main] INFO  testCases.TC03_InstType - Enter Password
+10:47:57.146 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+10:47:57.992 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+13:15:12.124 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+13:15:12.140 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+13:15:12.407 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+13:15:12.674 [main] INFO  testCases.TC01_LoginTest - Enter Password
+13:15:13.766 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+13:15:14.108 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+13:15:20.018 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+13:15:20.018 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+13:15:20.022 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+13:15:20.308 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+13:15:20.582 [main] INFO  testCases.TC03_InstType - Enter Password
+13:15:21.444 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+13:15:21.855 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+13:18:39.437 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+13:18:39.468 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+13:18:40.091 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+13:18:40.516 [main] INFO  testCases.TC01_LoginTest - Enter Password
+13:18:41.676 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+13:18:42.009 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+13:18:48.138 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+13:18:48.138 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+13:18:48.150 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+13:18:48.673 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+13:18:48.974 [main] INFO  testCases.TC03_InstType - Enter Password
+13:18:50.039 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+13:18:50.619 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+13:23:38.910 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+13:23:38.941 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+13:23:39.307 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+13:23:39.633 [main] INFO  testCases.TC01_LoginTest - Enter Password
+13:23:40.644 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+13:23:41.016 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+13:23:47.030 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+13:23:47.032 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+13:23:47.036 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+13:23:47.559 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+13:23:47.824 [main] INFO  testCases.TC03_InstType - Enter Password
+13:23:48.770 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+13:23:49.266 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
