@@ -7,9 +7,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-import org.testng.ITestContext;
-import org.testng.ITestListener;
-import org.testng.ITestResult;
+// import org.testng.ITestContext;
+// import org.testng.ITestListener;
+// import org.testng.ITestResult;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -101,11 +101,11 @@ public class ExtentReportManager implements ITestListener{
 		String pathOfExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
 		File extentReport = new File(pathOfExtentReport);
 		
-		try {
-			Desktop.getDesktop().browse(extentReport.toURI());
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		// try {
+		// 	Desktop.getDesktop().browse(extentReport.toURI());
+		// } catch (IOException e) {
+		// 	e.printStackTrace();
+		// }
 		
 		// Send email to team after code execution
 	
