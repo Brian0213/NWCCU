@@ -46,6 +46,7 @@ jobs:
           xvfb-run -a mvn clean test \
             -Dallure.results.directory=target/allure-results \
             -Dselenium.browser=chrome-headless
+            -Dheadless=true
         continue-on-error: true
 
       - name: Generate Allure Report
