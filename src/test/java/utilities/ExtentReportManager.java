@@ -102,7 +102,10 @@ public class ExtentReportManager implements ITestListener{
 		File extentReport = new File(pathOfExtentReport);
 		
 		try {
-			Desktop.getDesktop().browse(extentReport.toURI());
+			// Only try to open the report if desktop is supported and not in CI	
+			if (Desktop.isDesktopSupported() && System.getenv("CI") == null) {
+            Desktop.getDesktop().browse(extentReport.toURI());
+        }
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
