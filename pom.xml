@@ -21,6 +21,9 @@
                   <suiteXmlFiles>
                        <suiteXmlFile>master.xml</suiteXmlFile>
                   </suiteXmlFiles>
+				<systemPropertyVariables>
+                    <headless>true</headless>
+                </systemPropertyVariables>
             </configuration>
           </plugin>
         
@@ -30,6 +33,8 @@
        
   
    </build>
+
+	
   
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
