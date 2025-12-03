@@ -20,8 +20,25 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
 
+    # Install Google Chrome (required for Selenium tests)
+    - name: Install Google Chrome
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wget gnupg
+        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
+        sudo apt-get update
+        sudo apt-get install -y google-chrome-stable
+
+    # Optional but recommended: Install ChromeDriver
+    - name: Install ChromeDriver
+      run: |
+        sudo apt-get install -y chromium-chromedriver
+        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
+
     - name: Build with Maven
-      run: mvn clean install
+      run: mvn clean install -DskipTests=true
 
     - name: Run Selenium Tests
       run: mvn test
+
