@@ -1,29 +1,15 @@
-09:55:32.077 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@3b2c0e88: 63 ms
-09:55:32.097 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@4044fb95: 16 ms
-09:55:32.107 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5dd91bca: 9 ms
-09:55:32.145 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@565b064f: 38 ms
-09:55:32.149 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@62f4ff3b: 4 ms
-09:55:32.151 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1698fc68: 0 ms
-09:56:35.555 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\master.xml
-
-09:56:41.790 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
-09:56:41.799 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
-09:56:42.126 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
-09:56:42.282 [main] INFO  testCases.TC01_LoginTest - Enter Password
-09:56:43.755 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
-09:56:44.224 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
-09:57:01.158 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
-09:57:01.159 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
-09:57:01.164 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
-09:57:01.321 [main] INFO  testCases.TC03_InstType - Enter the Email Address
-09:57:01.429 [main] INFO  testCases.TC03_InstType - Enter Password
-09:57:02.826 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
-09:57:03.246 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
-09:57:20.200 [main] INFO  testCases.TC04_EditMember - ********Starting Edit Member Test*********
-09:57:20.200 [main] INFO  testCases.TC04_EditMember - Define the LoginPage Driver
-09:57:20.201 [main] INFO  testCases.TC04_EditMember - Define the HomePage Driver
-09:57:20.387 [main] INFO  testCases.TC04_EditMember - Enter the Email Address
-09:57:20.508 [main] INFO  testCases.TC04_EditMember - Enter Password
-09:57:21.768 [main] INFO  testCases.TC04_EditMember - Click the the Sigin Button
-09:57:23.444 [main] INFO  testCases.TC04_EditMember - ********Edit Member Test Completed*********
+10:43:08.024 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+10:43:25.424 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+10:43:25.424 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+10:43:25.456 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+10:43:25.597 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+10:43:25.690 [main] INFO  testCases.TC03_InstType - Enter Password
+10:43:27.282 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+10:43:27.604 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+10:43:44.799 [main] INFO  testCases.TC04_EditMember - ********Starting Edit Member Test*********
+10:43:44.802 [main] INFO  testCases.TC04_EditMember - Define the LoginPage Driver
+10:43:44.806 [main] INFO  testCases.TC04_EditMember - Define the HomePage Driver
+10:43:44.952 [main] INFO  testCases.TC04_EditMember - Enter the Email Address
+10:43:45.111 [main] INFO  testCases.TC04_EditMember - Enter Password
+10:43:46.466 [main] INFO  testCases.TC04_EditMember - Click the the Sigin Button
+10:43:47.737 [main] INFO  testCases.TC04_EditMember - ********Edit Member Test Completed*********
