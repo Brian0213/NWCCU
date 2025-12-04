@@ -54,6 +54,13 @@ jobs:
     - name: Run Selenium Tests
       run: mvn test
 
+    - name: Show Surefire Reports (Debug)
+      if: failure()
+      run: |
+        echo "----- TEST FAILURES -----"
+        cat target/surefire-reports/*.txt || true
+        echo "----- END REPORTS -----"
+
     - name: Generate Allure Report
       run: |
           export PATH=$PATH:$(pwd)/allure-2.32.0/bin
