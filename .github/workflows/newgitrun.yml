@@ -52,7 +52,7 @@ jobs:
       run: mvn clean install -DskipTests=true
 
     - name: Run Selenium Tests
-      run: mvn test
+      run: mvn test -Dos=linux -Dbrowser=chrome
 
     - name: Show Surefire Reports (Debug)
       if: failure()
