@@ -21,24 +21,57 @@ jobs:
         distribution: 'temurin'
 
     # Install Google Chrome (required for Selenium tests)
-    - name: Install Google Chrome
+    - name: Install Chrome Driver
       run: |
-        sudo apt-get update
-        sudo apt-get install -y wget gnupg
-        wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
-        echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-chrome.list
-        sudo apt-get update
-        sudo apt-get install -y google-chrome-stable
+          wget https://chromedriver.storage.googleapis.com/$(curl -s https://chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
+          unzip chromedriver_linux64.zip
+          sudo mv chromedriver /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
 
-    # Optional but recommended: Install ChromeDriver
-    - name: Install ChromeDriver
+    - name: Set Chrome binary path (Important for headless mode)
       run: |
-        sudo apt-get install -y chromium-chromedriver
-        sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
+          mkdir -p /opt/google/chrome
+          wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+          sudo dpkg -i google-chrome-stable_current_amd64.deb
+          rm google-chrome-stable_current_amd64.deb
+          sudo apt-get install -y --fix-broken
+          sudo apt-get install -y xvfb
+
+    - name: Install Allure CLI
+      run: |
+          wget https://github.com/allure-framework/allure2/releases/download/2.32.0/allure-2.32.0.zip
+          unzip allure-2.32.0.zip
+          export PATH=$PATH:$(pwd)/allure-2.32.0/bin
+          allure --version
 
     - name: Build with Maven
       run: mvn clean install -DskipTests=true
 
     - name: Run Selenium Tests
       run: mvn test
+
+    - name: Generate Allure Report
+      run: |
+          export PATH=$PATH:$(pwd)/allure-2.32.0/bin
+          mkdir allure-report
+          
+          allure generate Reports -o allure-report --clean
+
+    - name: Upload Allure Report as Artifact
+      uses: actions/upload-artifact@v4
+      with:
+          name: Allure Report
+          path: allure-report
+
+    - name: Deploy Allure Report to GitHub Pages
+      if: ${{ github.event_name == 'push' }}
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
+          publish_dir: ./allure-report
+          publish_branch: gh-pages
+          force_orphan: true
+
+  
 
