@@ -1,0 +1,57 @@
+14:19:35.941 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:19:35.948 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:19:35.948 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:19:35.950 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+14:19:35.950 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:19:35.952 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:19:35.953 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:19:35.953 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+14:19:35.953 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+14:19:35.960 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\AppData\Local\Temp\testng-eclipse-944641919\testng-customsuite.xml
+
+14:19:35.984 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+14:19:36.205 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6da00fb9: 87 ms
+14:19:36.239 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@68b6f0d6: 34 ms
+14:19:36.252 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@29df4d43: 13 ms
+14:19:36.286 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5c8eee0f: 34 ms
+14:19:36.292 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@20a8a64e: 5 ms
+14:19:36.293 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@62f4ff3b: 1 ms
+14:19:52.925 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\master.xml
+
+14:19:59.497 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+14:19:59.505 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+14:19:59.794 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+14:19:59.958 [main] INFO  testCases.TC01_LoginTest - Enter Password
+14:20:01.201 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+14:20:01.527 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
+14:20:07.515 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+14:20:07.515 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+14:20:07.518 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+14:20:07.865 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+14:20:08.105 [main] INFO  testCases.TC03_InstType - Enter Password
+14:20:09.362 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+14:20:09.865 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
+14:20:16.068 [main] INFO  testCases.TC04_EditMember - ********Starting Edit Member Test*********
+14:20:16.068 [main] INFO  testCases.TC04_EditMember - Define the LoginPage Driver
+14:20:16.069 [main] INFO  testCases.TC04_EditMember - Define the HomePage Driver
+14:20:16.271 [main] INFO  testCases.TC04_EditMember - Enter the Email Address
+14:20:16.417 [main] INFO  testCases.TC04_EditMember - Enter Password
+14:20:17.644 [main] INFO  testCases.TC04_EditMember - Click the the Sigin Button
+14:20:19.396 [main] INFO  testCases.TC04_EditMember - ********Edit Member Test Completed*********
+14:21:58.875 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\master.xml
+
+14:22:05.709 [main] INFO  testCases.TC01_LoginTest - ********Starting Sign to Data Portal Test*********
+14:22:05.723 [main] INFO  testCases.TC01_LoginTest - Define the LoginPage Driver
+14:22:05.790 [main] INFO  testCases.TC01_LoginTest - Enter the Email Address
+14:22:05.821 [main] INFO  testCases.TC01_LoginTest - Enter Password
+14:22:06.681 [main] INFO  testCases.TC01_LoginTest - Click the the Sigin Button
+14:22:12.087 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
+14:22:12.088 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
+14:22:12.091 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
+14:22:12.186 [main] INFO  testCases.TC03_InstType - Enter the Email Address
+14:22:12.245 [main] INFO  testCases.TC03_InstType - Enter Password
+14:22:13.069 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
+14:22:13.387 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********

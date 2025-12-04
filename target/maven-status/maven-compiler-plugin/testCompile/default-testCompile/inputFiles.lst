@@ -5,6 +5,8 @@ C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\testBase\BaseC
 C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\testCases\TC01_LoginTest.java
 C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\testCases\TC02_LoginDDT.java
 C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\testCases\TC03_InstType.java
+C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\testCases\TC04_EditMember.java
+C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\testCases\TC05_AddInstitution.java
 C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\utilities\DataProviders.java
 C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\utilities\ExcelUtility.java
 C:\Users\OluwasegunOjeyinka\eclipse-workspace\NWCCU\src\test\java\utilities\ExtentReportManager.java

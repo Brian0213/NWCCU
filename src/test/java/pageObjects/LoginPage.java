@@ -26,7 +26,7 @@ WebElement btnSignin;
 @FindBy(xpath="//button[normalize-space()='Upload Data']")
 WebElement btnUpload;	
 
-@FindBy(xpath="//span[@class='text-sm font-medium text-white']")
+@FindBy(xpath="//span[@class='text-sm font-medium text-slate-700 dark:text-slate-300']")
 WebElement btnMenu;	
 
 @FindBy(xpath="//button[normalize-space()='Sign Out']")

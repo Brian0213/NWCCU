@@ -1,0 +1,66 @@
+Prerequisites for Selenium + Java Hybrid Automation Framework (TestNG)
+
+1. Install Java on the workstation (Windows or Mac)
+
+2. Confirm installation: java --version.
+
+3. Download Eclipse.
+
+4. Create a maven project in Eclipse.
+
+5. Add the following plugins to the pom.xml file from (https://mvnrepository.com/):
+   - maven-compiler-plugin
+   - maven-surefire-plugin
+   
+6. Add the following Dependencies to the pom.xml file:
+   - selenium-java
+   - poi
+   - poi-ooxml
+   - log4j-core
+   - log4j-api
+   - commons-io
+   - commons-lang3
+   - log4j-slf4j2-impl
+   - testng
+   - extentreports
+   - commons-email
+   
+7. Project Structure (Hybrid Framework Pattern)
+src
+ └── test
+     └── java/
+         ├── testBase/          # Base classes
+         ├── pageObjects/       # Page Object Model (POM)
+         ├── tests/             # TestNG test classes
+         ├── utilities/         # DataProviders.java, ExcelUtility.java, ExtentReportManager.java
+ 
+ └── test  
+     └── resources/
+             ├── config.properties     # static data: user credentials, baseURL
+             ├── docker-compose.yaml 
+             └── log4j2.xml
+Other Folders and Files:
+   - JRE System Library/
+   - Maven Dependencies/
+   - logs/
+   - reports/
+   - screenshots/
+   - src/
+   - target/
+   - testData/
+   - test-output/
+   - crossbrowsertesting.xml
+   - grid-docker.xml
+   - grouping.xml
+   - master.xml
+   - pom.xml
+   - run.bat
+   
+8. Version Control
+Use:
+  - Git
+  - GiHub
+  
+9. CI/CD Integration
+Integrate with:
+  - Jenkins

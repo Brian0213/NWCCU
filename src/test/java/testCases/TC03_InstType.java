@@ -31,8 +31,7 @@ public class TC03_InstType extends BaseClass {
 		lp.clickSigin();
 		logger.info("Click the the Sigin Button");
 		hp.clickInstituition();
-		hp.clickAny();
-		lp.clickApply();
+		hp.clickPublic();
 
 		
 		logger.info("********Institution Type Test Completed*********");
