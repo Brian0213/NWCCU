@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-04T10:42:59 PST" name="Master Suite" finished-at="2025-12-04T10:43:58 PST" duration-ms="59832">
+  <suite started-at="2025-12-11T16:14:31 PST" name="Master Suite" finished-at="2025-12-11T16:15:58 PST" duration-ms="87448">
     <groups>
       <group name="Master">
-        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@458342d3]" name="login_process" class="testCases.TC01_LoginTest"/>
-        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@56f6d40b]" name="InstituteType_process" class="testCases.TC03_InstType"/>
-        <method signature="TC04_EditMember.InstituteType_process()[pri:0, instance:testCases.TC04_EditMember@36676c1a]" name="InstituteType_process" class="testCases.TC04_EditMember"/>
+        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@72445aba]" name="login_process" class="testCases.TC01_LoginTest"/>
+        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@9ed238c]" name="InstituteType_process" class="testCases.TC03_InstType"/>
+        <method signature="TC04_EditMember.InstituteType_process()[pri:0, instance:testCases.TC04_EditMember@56276db8]" name="InstituteType_process" class="testCases.TC04_EditMember"/>
+        <method signature="TC06_HelpTour.InstituteType_process()[pri:0, instance:testCases.TC06_HelpTour@51e8e6e6]" name="InstituteType_process" class="testCases.TC06_HelpTour"/>
       </group> <!-- Master -->
       <group name="Sanity">
-        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@458342d3]" name="login_process" class="testCases.TC01_LoginTest"/>
+        <method signature="TC01_LoginTest.login_process()[pri:0, instance:testCases.TC01_LoginTest@72445aba]" name="login_process" class="testCases.TC01_LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@56f6d40b]" name="InstituteType_process" class="testCases.TC03_InstType"/>
-        <method signature="TC04_EditMember.InstituteType_process()[pri:0, instance:testCases.TC04_EditMember@36676c1a]" name="InstituteType_process" class="testCases.TC04_EditMember"/>
+        <method signature="TC03_InstType.InstituteType_process()[pri:0, instance:testCases.TC03_InstType@9ed238c]" name="InstituteType_process" class="testCases.TC03_InstType"/>
+        <method signature="TC04_EditMember.InstituteType_process()[pri:0, instance:testCases.TC04_EditMember@56276db8]" name="InstituteType_process" class="testCases.TC04_EditMember"/>
+        <method signature="TC06_HelpTour.InstituteType_process()[pri:0, instance:testCases.TC06_HelpTour@51e8e6e6]" name="InstituteType_process" class="testCases.TC06_HelpTour"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-12-04T10:42:59 PST" name="Test" finished-at="2025-12-04T10:43:58 PST" duration-ms="59832">
-      <class name="testCases.TC04_EditMember">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_EditMember@36676c1a]" started-at="2025-12-04T10:43:39 PST" name="setup" finished-at="2025-12-04T10:43:44 PST" duration-ms="5398" status="PASS">
+    <test started-at="2025-12-11T16:14:31 PST" name="Test" finished-at="2025-12-11T16:15:58 PST" duration-ms="87448">
+      <class name="testCases.TC06_HelpTour">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC06_HelpTour@51e8e6e6]" started-at="2025-12-11T16:15:38 PST" name="setup" finished-at="2025-12-11T16:15:44 PST" duration-ms="6297" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,17 +37,43 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC04_EditMember@36676c1a]" started-at="2025-12-04T10:43:44 PST" name="InstituteType_process" finished-at="2025-12-04T10:43:47 PST" duration-ms="2944" status="PASS">
+        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC06_HelpTour@51e8e6e6]" started-at="2025-12-11T16:15:44 PST" name="InstituteType_process" finished-at="2025-12-11T16:15:47 PST" duration-ms="2628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InstituteType_process -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_EditMember@36676c1a]" started-at="2025-12-04T10:43:47 PST" name="tearDown" finished-at="2025-12-04T10:43:58 PST" duration-ms="11140" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC06_HelpTour@51e8e6e6]" started-at="2025-12-11T16:15:47 PST" name="tearDown" finished-at="2025-12-11T16:15:58 PST" duration-ms="11150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC06_HelpTour -->
+      <class name="testCases.TC04_EditMember">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC04_EditMember@56276db8]" started-at="2025-12-11T16:15:16 PST" name="setup" finished-at="2025-12-11T16:15:22 PST" duration-ms="5783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC04_EditMember@56276db8]" started-at="2025-12-11T16:15:22 PST" name="InstituteType_process" finished-at="2025-12-11T16:15:27 PST" duration-ms="4577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstituteType_process -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC04_EditMember@56276db8]" started-at="2025-12-11T16:15:27 PST" name="tearDown" finished-at="2025-12-11T16:15:38 PST" duration-ms="11203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC04_EditMember -->
       <class name="testCases.TC03_InstType">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_InstType@56f6d40b]" started-at="2025-12-04T10:43:19 PST" name="setup" finished-at="2025-12-04T10:43:25 PST" duration-ms="6002" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC03_InstType@9ed238c]" started-at="2025-12-11T16:14:56 PST" name="setup" finished-at="2025-12-11T16:15:02 PST" duration-ms="5537" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,17 +89,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC03_InstType@56f6d40b]" started-at="2025-12-04T10:43:25 PST" name="InstituteType_process" finished-at="2025-12-04T10:43:27 PST" duration-ms="2187" status="PASS">
+        <test-method signature="InstituteType_process()[pri:0, instance:testCases.TC03_InstType@9ed238c]" started-at="2025-12-11T16:15:02 PST" name="InstituteType_process" finished-at="2025-12-11T16:15:05 PST" duration-ms="3525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InstituteType_process -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_InstType@56f6d40b]" started-at="2025-12-04T10:43:27 PST" name="tearDown" finished-at="2025-12-04T10:43:39 PST" duration-ms="11764" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC03_InstType@9ed238c]" started-at="2025-12-11T16:15:05 PST" name="tearDown" finished-at="2025-12-11T16:15:16 PST" duration-ms="11150" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC03_InstType -->
       <class name="testCases.TC01_LoginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LoginTest@458342d3]" started-at="2025-12-04T10:42:59 PST" name="setup" finished-at="2025-12-04T10:43:05 PST" duration-ms="6294" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC01_LoginTest@72445aba]" started-at="2025-12-11T16:14:31 PST" name="setup" finished-at="2025-12-11T16:14:42 PST" duration-ms="11033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,11 +115,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login_process()[pri:0, instance:testCases.TC01_LoginTest@458342d3]" started-at="2025-12-04T10:43:05 PST" name="login_process" finished-at="2025-12-04T10:43:08 PST" duration-ms="2417" status="PASS">
+        <test-method signature="login_process()[pri:0, instance:testCases.TC01_LoginTest@72445aba]" started-at="2025-12-11T16:14:42 PST" name="login_process" finished-at="2025-12-11T16:14:45 PST" duration-ms="2790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_process -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_LoginTest@458342d3]" started-at="2025-12-04T10:43:08 PST" name="tearDown" finished-at="2025-12-04T10:43:19 PST" duration-ms="11218" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC01_LoginTest@72445aba]" started-at="2025-12-11T16:14:45 PST" name="tearDown" finished-at="2025-12-11T16:14:56 PST" duration-ms="11260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

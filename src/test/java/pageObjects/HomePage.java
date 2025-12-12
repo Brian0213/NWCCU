@@ -168,10 +168,32 @@ WebElement btnCancel;
 @FindBy(xpath="//button[normalize-space()='Create']")
 WebElement btnCreate;
 
+@FindBy(xpath="//button[normalize-space()='Help Tour']")
+WebElement btnHelpTour;
 
+@FindBy(xpath="//button[normalize-space()='Next']")
+WebElement btnAddData;
 
+@FindBy(xpath="//button[normalize-space()='Next']")
+WebElement btnDataViews;
 
+@FindBy(xpath="//button[normalize-space()='Next']")
+WebElement btnTableOrChartView;
 
+@FindBy(xpath="//button[normalize-space()='Next']")
+WebElement btnFilterData;
+
+@FindBy(xpath="//button[normalize-space()='Next']")
+WebElement btnQuickActions;
+
+@FindBy(xpath="//button[normalize-space()='Finish']")
+WebElement btnfinishSelectInstitutions;
+
+@FindBy(xpath="//button[normalize-space()='Back']")
+WebElement backHelpTour;
+
+@FindBy(xpath="//button[normalize-space()='Skip']")
+WebElement skipHelpTour;
 
 public void clickInstituition()
 {
@@ -441,5 +463,51 @@ public void clickCreateButton()
 {
 	btnCreate.click();
 }
+
+public void clickHelpTourButton()
+{
+	btnHelpTour.click();
+}
+
+public void clickAddDataNextButton()
+{
+	btnAddData.click();
+}
+
+public void clickDataViewsNextButton()
+{
+	btnDataViews.click();
+}
+
+public void clickTableOrChartViewNextButton()
+{
+	btnTableOrChartView.click();
+}
+
+public void clickFilterDataNextButton()
+{
+	btnFilterData.click();
+}
+
+public void clickQuickActionsNextButton()
+{
+	btnQuickActions.click();
+}
+
+public void clickfinishSelectInstitutionsNextButton()
+{
+	btnfinishSelectInstitutions.click();
+}
+
+public void clickbackHelpTourNextButton()
+{
+	backHelpTour.click();
+}
+
+public void clickskipHelpTourNextButton()
+{
+	skipHelpTour.click();
+}
+
 
 }

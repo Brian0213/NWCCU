@@ -1,15 +1,6 @@
-10:43:08.024 [main] INFO  testCases.TC01_LoginTest - ********Sign to Data Portal Test Completed*********
-10:43:25.424 [main] INFO  testCases.TC03_InstType - ********Starting Institution Type Test*********
-10:43:25.424 [main] INFO  testCases.TC03_InstType - Define the LoginPage Driver
-10:43:25.456 [main] INFO  testCases.TC03_InstType - Define the HomePage Driver
-10:43:25.597 [main] INFO  testCases.TC03_InstType - Enter the Email Address
-10:43:25.690 [main] INFO  testCases.TC03_InstType - Enter Password
-10:43:27.282 [main] INFO  testCases.TC03_InstType - Click the the Sigin Button
-10:43:27.604 [main] INFO  testCases.TC03_InstType - ********Institution Type Test Completed*********
-10:43:44.799 [main] INFO  testCases.TC04_EditMember - ********Starting Edit Member Test*********
-10:43:44.802 [main] INFO  testCases.TC04_EditMember - Define the LoginPage Driver
-10:43:44.806 [main] INFO  testCases.TC04_EditMember - Define the HomePage Driver
-10:43:44.952 [main] INFO  testCases.TC04_EditMember - Enter the Email Address
-10:43:45.111 [main] INFO  testCases.TC04_EditMember - Enter Password
-10:43:46.466 [main] INFO  testCases.TC04_EditMember - Click the the Sigin Button
-10:43:47.737 [main] INFO  testCases.TC04_EditMember - ********Edit Member Test Completed*********
+16:15:44.886 [main] INFO  testCases.TC06_HelpTour - Define the LoginPage Driver
+16:15:44.901 [main] INFO  testCases.TC06_HelpTour - Define the HomePage Driver
+16:15:45.367 [main] INFO  testCases.TC06_HelpTour - Enter the Email Address
+16:15:45.601 [main] INFO  testCases.TC06_HelpTour - Enter Password
+16:15:47.158 [main] INFO  testCases.TC06_HelpTour - Click the the Sigin Button
+16:15:47.500 [main] INFO  testCases.TC06_HelpTour - ********Institution Type Test Completed*********

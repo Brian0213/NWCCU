@@ -9,7 +9,7 @@ import pageObjects.HomePage;
 import pageObjects.LoginPage;
 import testBase.BaseClass;
 
-public class TC03_InstType extends BaseClass {
+public class TC06_HelpTour extends BaseClass {
 	
 	@Test(groups={"Regression","Master"})
 	public void InstituteType_process() throws InterruptedException
@@ -30,13 +30,8 @@ public class TC03_InstType extends BaseClass {
 		
 		lp.clickSigin();
 		logger.info("Click the the Sigin Button");
-		hp.clickHelpTourButton();
-		hp.clickAddDataNextButton();
-		hp.clickDataViewsNextButton();
-		hp.clickTableOrChartViewNextButton();
-		hp.clickFilterDataNextButton();
-		hp.clickQuickActionsNextButton();
-		hp.clickfinishSelectInstitutionsNextButton();
+		hp.clickInstituition();
+		hp.clickPublic();
 
 		
 		logger.info("********Institution Type Test Completed*********");

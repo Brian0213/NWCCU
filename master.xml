@@ -18,6 +18,7 @@
       <class name="testCases.TC03_InstType"/> 
       <class name="testCases.TC04_EditMember"/>
       <!-- <class name="testCases.TC05_AddInstitution"/> -->
+      <class name="testCases.TC06_HelpTour"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
