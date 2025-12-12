@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1733","InstituteType_process","Master Suite","Fri Dec 12 00:35:12 UTC 2025","passed","Fri Dec 12 00:35:14 UTC 2025","testCases.TC03_InstType","Test","testCases.TC03_InstType","InstituteType_process"
+"","1506","InstituteType_process","Master Suite","Fri Dec 12 00:35:17 UTC 2025","passed","Fri Dec 12 00:35:19 UTC 2025","testCases.TC06_HelpTour","Test","testCases.TC06_HelpTour","InstituteType_process"
+"","1442","login_process","Master Suite","Fri Dec 12 00:35:10 UTC 2025","passed","Fri Dec 12 00:35:11 UTC 2025","testCases.TC01_LoginTest","Test","testCases.TC01_LoginTest","login_process"
+"","2202","InstituteType_process","Master Suite","Fri Dec 12 00:35:14 UTC 2025","passed","Fri Dec 12 00:35:17 UTC 2025","testCases.TC04_EditMember","Test","testCases.TC04_EditMember","InstituteType_process"
