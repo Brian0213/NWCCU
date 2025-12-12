@@ -116,19 +116,29 @@
 	    <version>1.6.0</version>
 	</dependency>
 	
+<<<<<<< HEAD
     <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
     <dependency>
+=======
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+   <dependency>
+>>>>>>> ac9c0693f6102cc071ba0f42895494574f1b0977
 	    <groupId>io.qameta.allure</groupId>
 	    <artifactId>allure-testng</artifactId>
 	    <version>2.31.0</version>
-    </dependency>
+   </dependency>
     
 	<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
 	<dependency>
 	    <groupId>io.qameta.allure</groupId>
 	    <artifactId>allure-java-commons</artifactId>
 	    <version>2.31.0</version>
+<<<<<<< HEAD
     </dependency>		  
+=======
+    </dependency>		
+		  
+>>>>>>> ac9c0693f6102cc071ba0f42895494574f1b0977
   
   </dependencies>
   
